@@ -1,0 +1,77 @@
+.home {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  
+  /* 스토리 바 */
+  .story-bar {
+    display: flex;
+    gap: 16px;
+    padding: 10px 0;
+    overflow-x: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60px;
+  }
+  
+  .story-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+  }
+  
+  .story-name {
+    font-size: 12px;
+    margin-top: 4px;
+    text-align: center;
+  }
+  
+  /* 피드 카드 */
+  .feed {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .feed-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .feed-profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .feed-username {
+    font-weight: bold;
+  }
+  
+  .feed-time {
+    margin-left: auto;
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .feed-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  .feed-caption {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
