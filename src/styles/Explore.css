@@ -1,8 +1,8 @@
 .explore {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 칸 자동 */
-    gap: 4px;
-    padding: 100px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 칸 자동 */
+    gap: 8px;
+    padding: 80px;
   }
   
   .explore-item {
