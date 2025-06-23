@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 칸 자동 */
     gap: 4px;
-    padding: 20px;
+    padding: 100px;
   }
   
   .explore-item {
